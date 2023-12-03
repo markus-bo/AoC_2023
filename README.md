@@ -3,3 +3,11 @@
 [Day 1 - Trebuchet?!](https://adventofcode.com/2023/day/1)
 - Difficulty: very simple part 1, simple part 2
 - Challenges: pattern matching / regex
+
+[Day 2 - Cube Conundrum](https://adventofcode.com/2023/day/2)
+- Difficulty: simple
+- Challenges: input parsing
+
+[Day 3 - Gear Ratios](https://adventofcode.com/2023/day/3)
+- Difficulty: medium
+- Challenges: loops, 2d array
