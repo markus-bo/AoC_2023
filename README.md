@@ -11,3 +11,7 @@
 [Day 3 - Gear Ratios](https://adventofcode.com/2023/day/3)
 - Difficulty: medium
 - Challenges: loops, 2d array
+
+[Day 4 - ](https://adventofcode.com/2023/day/4)
+- Difficulty: simple
+- Challenges: compare lists

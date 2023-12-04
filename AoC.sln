@@ -11,6 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AoC_2023.Day2", "AoC_2023.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AoC_2023.Day3", "AoC_2023.Day3\AoC_2023.Day3.csproj", "{9AA700D5-315C-406D-81E3-53A58AA3693F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AoC_2023.Day4", "AoC_2023.Day4\AoC_2023.Day4.csproj", "{CAC65ED3-C1BA-4C98-BB6D-96CDCD1EFFD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{F828705F-E7E2-490D-BEB9-21D188B32DE9}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +40,10 @@ Global
 		{9AA700D5-315C-406D-81E3-53A58AA3693F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AA700D5-315C-406D-81E3-53A58AA3693F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AA700D5-315C-406D-81E3-53A58AA3693F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC65ED3-C1BA-4C98-BB6D-96CDCD1EFFD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC65ED3-C1BA-4C98-BB6D-96CDCD1EFFD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC65ED3-C1BA-4C98-BB6D-96CDCD1EFFD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC65ED3-C1BA-4C98-BB6D-96CDCD1EFFD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
