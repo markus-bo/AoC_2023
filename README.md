@@ -12,6 +12,10 @@
 - Difficulty: medium
 - Challenges: loops, 2d array
 
-[Day 4 - ](https://adventofcode.com/2023/day/4)
+[Day 4 - Scratchcards](https://adventofcode.com/2023/day/4)
 - Difficulty: simple
 - Challenges: compare lists
+
+[Day 5 - If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5)
+- Difficulty: hard
+- Challenges: ranges, large dataset
