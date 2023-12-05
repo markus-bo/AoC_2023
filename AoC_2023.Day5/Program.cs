@@ -9,26 +9,6 @@ internal class Solution
 {
     static void Main(string[] args)
     {
-
-        List<(long start, long end)> list1 = new List<(long start, long end)>()
-        { 
-            (15, 25), (26, 35), (50, 55),(58,59)
-            //(15, 25)
-        };
-
-        List<(long start, long end)> list2 = new List<(long start, long end)>()
-        {
-            (5,16), (24,27), (53, 60)
-           // (15, 20), (19, 35), (50, 55)
-            //(15, 20)
-        };
-
-
-        var split = SplitRegions(list1, list2);
-
-        Console.WriteLine(string.Join("\n", split.Select(x => $"{x.start} {x.end}")));
-
-
         PuzzleSetup.Solve(solutionPart1, solutionPart2);
     }
 
