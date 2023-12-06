@@ -19,3 +19,7 @@
 [Day 5 - If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5)
 - Difficulty: hard
 - Challenges: ranges, large dataset
+
+[Day 6 - Wait For It](https://adventofcode.com/2023/day/5)
+- Difficulty: simple
+- Challenges: brute force
