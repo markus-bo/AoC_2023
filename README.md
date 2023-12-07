@@ -20,6 +20,10 @@
 - Difficulty: hard
 - Challenges: ranges, large dataset
 
-[Day 6 - Wait For It](https://adventofcode.com/2023/day/5)
+[Day 6 - Wait For It](https://adventofcode.com/2023/day/6)
 - Difficulty: simple
 - Challenges: brute force
+
+[Day 7 - ](https://adventofcode.com/2023/day/7)
+- Difficulty: 
+- Challenges: 
