@@ -24,6 +24,6 @@
 - Difficulty: simple
 - Challenges: brute force
 
-[Day 7 - ](https://adventofcode.com/2023/day/7)
-- Difficulty: 
-- Challenges: 
+[Day 7 - Camel Cards](https://adventofcode.com/2023/day/7)
+- Difficulty: simple
+- Challenges: comparison
