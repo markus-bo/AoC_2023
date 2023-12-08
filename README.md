@@ -27,3 +27,7 @@
 [Day 7 - Camel Cards](https://adventofcode.com/2023/day/7)
 - Difficulty: simple
 - Challenges: comparison
+
+[Day 8 - Haunted Wasteland](https://adventofcode.com/2023/day/8)
+- Difficulty: medium
+- Challenges: arithmetic, lcm
