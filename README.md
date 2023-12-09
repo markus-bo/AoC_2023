@@ -31,3 +31,7 @@
 [Day 8 - Haunted Wasteland](https://adventofcode.com/2023/day/8)
 - Difficulty: medium
 - Challenges: arithmetic, lcm
+
+[Day 9 - Mirage Maintenance](https://adventofcode.com/2023/day/8)
+- Difficulty: medium
+- Challenges: lists, arrays

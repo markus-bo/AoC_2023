@@ -119,7 +119,7 @@ internal class Solution
 
             if (counter.All(x => x!=0))
             {
-                return AoC_Toolbox.Arithmetic.LCM(counter);
+                return AoC_Toolbox.Mathematic.Arithmetic.LCM(counter);
             }
 
             if (currents.Length == zEnding)
