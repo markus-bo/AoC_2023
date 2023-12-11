@@ -32,6 +32,10 @@
 - Difficulty: medium
 - Challenges: arithmetic, lcm
 
-[Day 9 - Mirage Maintenance](https://adventofcode.com/2023/day/8)
+[Day 9 - Mirage Maintenance](https://adventofcode.com/2023/day/9)
 - Difficulty: medium
 - Challenges: lists, arrays
+
+[Day 10 - Pipe Maze](https://adventofcode.com/2023/day/10)
+- Difficulty: medium
+- Challenges: path finding, geometry
