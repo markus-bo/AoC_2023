@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AoC_2023.Day9", "AoC_2023.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AoC_Toolbox.Test", "AoC_Toolbox.Test\AoC_Toolbox.Test.csproj", "{B1E2864C-241D-481B-8AD6-CCAEF2228E7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOC_2023.Day11", "AoC_2023.Day11\AOC_2023.Day11.csproj", "{87286ABC-D287-48A6-A0DD-8894CD87A7B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +82,10 @@ Global
 		{B1E2864C-241D-481B-8AD6-CCAEF2228E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1E2864C-241D-481B-8AD6-CCAEF2228E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1E2864C-241D-481B-8AD6-CCAEF2228E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87286ABC-D287-48A6-A0DD-8894CD87A7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87286ABC-D287-48A6-A0DD-8894CD87A7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87286ABC-D287-48A6-A0DD-8894CD87A7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87286ABC-D287-48A6-A0DD-8894CD87A7B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
