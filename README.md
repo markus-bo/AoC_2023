@@ -39,3 +39,11 @@
 [Day 10 - Pipe Maze](https://adventofcode.com/2023/day/10)
 - Difficulty: medium
 - Challenges: path finding, geometry
+
+[Day 11 - Cosmic Expansion](https://adventofcode.com/2023/day/11)
+- Difficulty: medium
+- Challenges: arrays, distance
+
+[Day 14 - Parabolic Reflector Dish](https://adventofcode.com/2023/day/14)
+- Difficulty: medium
+- Challenges: modulus, hashmap
