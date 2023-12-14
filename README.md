@@ -44,6 +44,10 @@
 - Difficulty: medium
 - Challenges: arrays, distance
 
+[Day 12 - Hot Springs](https://adventofcode.com/2023/day/12)
+- Difficulty: hard
+- Challenges: dynamic programming, memoization
+
 [Day 13 - Point of Incidence](https://adventofcode.com/2023/day/13)
 - Difficulty: medium
 - Challenges: arrays, loops
