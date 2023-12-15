@@ -55,3 +55,7 @@
 [Day 14 - Parabolic Reflector Dish](https://adventofcode.com/2023/day/14)
 - Difficulty: medium
 - Challenges: modulus, hashmap
+
+[Day 15 - Parabolic Reflector Dish](https://adventofcode.com/2023/day/15)
+- Difficulty: medium
+- Challenges: lists, arrays
