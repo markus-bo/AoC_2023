@@ -56,6 +56,10 @@
 - Difficulty: medium
 - Challenges: modulus, hashmap
 
-[Day 15 - Parabolic Reflector Dish](https://adventofcode.com/2023/day/15)
+[Day 15 - Lens Library](https://adventofcode.com/2023/day/15)
 - Difficulty: medium
 - Challenges: lists, arrays
+
+[Day 16 - The Floor Will Be Lava](https://adventofcode.com/2023/day/16)
+- Difficulty: medium
+- Challenges: dfs, recursion
