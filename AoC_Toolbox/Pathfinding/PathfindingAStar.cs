@@ -9,19 +9,19 @@ public class PathfindingAStar<T> : IPathfindingAStar<T> where T : Node
         _graph = graph;
     }
 
-    public IEnumerable<T> searchMinimumPath(T startNode, T endNode, Func<T, T, long> heuristic, long initialLength = 0)
+    public IEnumerable<T> searchMinimumPath(T startNode, T endNode, Func<T, T, long> heuristic, Func<T, T, bool> equalityComparer, long initialLength = 0)
     {
-        var pathEnd = searchMinimumPathLengthAStar(startNode, endNode, heuristic, initialLength);
+        var pathEnd = searchMinimumPathLengthAStar(startNode, endNode, heuristic, equalityComparer, initialLength);
 
         return reconstructPath(pathEnd);
     }
     
-    public long searchMinimumPathLength(T startNode, T endNode, Func<T, T, long> heuristic, long initialLength = 0)
+    public long searchMinimumPathLength(T startNode, T endNode, Func<T, T, long> heuristic, Func<T, T, bool> equalityComparer, long initialLength = 0)
     {
-        return searchMinimumPath(startNode, endNode, heuristic, initialLength).Count() + initialLength;
+        return searchMinimumPath(startNode, endNode, heuristic, equalityComparer, initialLength).Count() + initialLength;
     }
 
-    private NodeAStar<T> searchMinimumPathLengthAStar(T startNode, T endNode, Func<T, T, long> heuristic, long initialLength = 0)
+    private NodeAStar<T> searchMinimumPathLengthAStar(T startNode, T endNode, Func<T, T, long> heuristic, Func<T, T, bool> equalityComparer, long initialLength = 0)
     {
         var openQueue = new PriorityQueue<NodeAStar<T>, long>();
         var openList = new Dictionary<T, NodeAStar<T>>();
@@ -40,7 +40,7 @@ public class PathfindingAStar<T> : IPathfindingAStar<T> where T : Node
                                                         gcost: currentNode.GCost + node.cost,
                                                         hcost: heuristic(endNode, node.node))))
             {
-                if (next.NodePosition == endNode)
+                if (equalityComparer(next.NodePosition,endNode) == true)
                 {
                     endNodeAStar.ParentNode = next;
                     goto PATH_FOUND;
