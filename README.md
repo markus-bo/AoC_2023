@@ -63,3 +63,7 @@
 [Day 16 - The Floor Will Be Lava](https://adventofcode.com/2023/day/16)
 - Difficulty: medium
 - Challenges: dfs, recursion
+
+[Day 17 - Clumsy Crucible](https://adventofcode.com/2023/day/17)
+- Difficulty: medium
+- Challenges: pathfinding, A*
